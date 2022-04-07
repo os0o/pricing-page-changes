@@ -1,0 +1,766 @@
+
+	
+	
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="SendSafely lets you easily exchange encrypted files and information with anyone on any device. Let us take the headache out of secure file exchange.">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PQ3L3XZ');</script>
+<!-- End Google Tag Manager -->
+
+<!--[if lte IE 9]>
+<meta http-equiv="refresh" content="0;url=/error/?reason=0x7D"> 
+<![endif]-->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SendSafely",
+  "url": "https://www.sendsafely.com/",
+  "logo": "https://www.sendsafely.com/img/ss_logo_120_686.png",
+  "sameAs": [ 
+    "https://www.linkedin.com/company/sendsafely/", 
+    "https://twitter.com/sendsafely?lang=en"
+  ]
+}
+</script>
+
+<title>SendSafely | The End-to-End Encryption Platform</title>
+	<meta http-equiv="Content-Security-Policy" content="default-src 'none'; frame-src https://static-corp.sendsafely.com 'self' https://bid.g.doubleclick.net https://www.google.com sendsafely: https://analytics-frame.sendsafely.com https://static-www.sendsafely.com;connect-src 'self' https://corp.sendsafely.com https://www.google.com https://script.google.com https://script.googleusercontent.com https://dolrny2ul6.execute-api.us-east-1.amazonaws.com https://hooks.zapier.com; script-src 'self' https://static-www.sendsafely.com https://www.google.com https://www.gstatic.com https://apis.google.com https://ssl.gstatic.com https://ssl.google-analytics.com https://api.stripe.com https://www.googleadservices.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://js.hs-analytics.net https://js.hsforms.net https://forms.hubspot.com https://api.hubapi.com https://internal.hubapi.com; style-src https://fonts.googleapis.com 'self' 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; manifest-src 'self'; object-src 'self' https://static-www.sendsafely.com; child-src 'self'; img-src 'self' https://cdn.zapier.com https://zapier.com https://app-static.sendsafely.com blob: data: https://www.google.com https://www.gstatic.com https://apis.google.com https://ssl.gstatic.com https://ssl.google-analytics.com https://www.gravatar.com i0.wp.com i1.wp.com i2.wp.com i3.wp.com https://stats.g.doubleclick.net https://www.googleadservices.com https://googleads.g.doubleclick.net https://track.hubspot.com chrome-extension:;">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="/www-css/bootstrap.min.css">
+<!--icon font css-->
+<link rel="stylesheet" href="/vendors/themify-icon/themify-icons.css">
+<link rel="stylesheet" href="/vendors/font-awesome/css/all.css">
+<link rel="stylesheet" href="/vendors/flaticon/flaticon.css">
+<link rel="stylesheet" href="/vendors/animation/animate.css">
+<link rel="stylesheet" href="/vendors/animation/animate.css">
+<link rel="stylesheet" href="/vendors/magnify-pop/magnific-popup.css">
+<link rel="stylesheet" href="/vendors/elagent/style.css">
+<link rel="stylesheet" href="/www-css/style.css">
+<link rel="stylesheet" href="/www-css/responsive.css">
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://static-www.sendsafely.com/www-js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/www-js/propper.js" type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/www-js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/wow/wow.min.js" type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/sckroller/jquery.parallax-scroll.js"
+		type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/owl-carousel/owl.carousel.min.js"
+		type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/imagesloaded/imagesloaded.pkgd.min.js"
+		type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/isotope/isotope-min.js" type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/vendors/magnify-pop/jquery.magnific-popup.min.js"
+		type="text/javascript"></script>
+	<script src="https://static-www.sendsafely.com/www-js/plugins.js" type="text/javascript"></script>	
+	<script src="https://static-www.sendsafely.com/www-js/demoForm.js" type="text/javascript" async defer></script>
+        <script src="https://static-www.sendsafely.com/www-js/analytics.js" type="text/javascript" async defer></script>
+
+
+
+</head>
+<body>
+	<div id="preloader" style="display:none">
+		<div id="ctn-preloader" class="ctn-preloader">
+			<div class="animation-preloader">
+				<div class="spinner"></div>
+			</div>
+			<div class="loader">
+				<div class="row">
+					<div class="col-3 loader-section section-left">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-left">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-right">
+						<div class="bg"></div>
+					</div>
+					<div class="col-3 loader-section section-right">
+						<div class="bg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+		<header class="header_area">
+
+	
+	
+		<nav class="navbar navbar-expand-lg menu_one menu_four">
+			<div id="menu-container" class="menu-container container-fluid" style="padding-left:26px; padding-right:50px;">
+				<a style="margin-top:4px; margin-right:0px;" class="navbar-brand sticky_logo" href="/">
+				<img class="navbar-logo" 
+					src="/img/ss_logo_60_343.png"
+					srcset="/img/ss_logo_120_686.png 2x" alt="logo">
+				<img class="navbar-logo" 
+					src="/img/ss_logo_dark_60_343.png"
+					srcset="/img/ss_logo_dark_120_686.png 2x" alt=""></a>
+				<button class="navbar-toggler collapsed" type="button"
+					data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="menu_toggle"> <span class="hamburger"> <span></span>
+							<span></span> <span></span>
+					</span> <span class="hamburger-cross"> <span></span> <span></span>
+					</span>
+					</span>
+				</button>
+				
+				
+				
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul style="padding-left:30px;" class="navbar-nav menu w_menu pl_100 ml-auto">
+
+						<li id="features-menu" class="d-lg-none d-xl-block nav-item dropdown submenu">
+							<a class="nav-link" href="/features/">Features </a>
+						</li>
+						<li id="solutions-menu" class="dropdown submenu nav-item"><a title="Solutions"
+							class="dropdown-toggle nav-link" data-toggle="dropdown"
+							role="button" aria-haspopup="true" aria-expanded="false" href="#">Solutions</a>
+							<ul role="menu" class=" dropdown-menu">
+								<li class="nav-item"><a title="Secure Email"
+									class="nav-link" href="/email-security/">Secure Email</a></li>
+								<li class="nav-item"><a title="Help Desk Integrations"
+									class="nav-link" href="/help-desk-integrations/">Help Desk Integrations</a></li>
+								<li class="nav-item"><a title="Secure File Exchange"
+									class="nav-link" href="/secure-file-transfer/">Secure File Exchange</a></li>
+								<li class="nav-item"><a title="SendSafely Dropzone"
+									class="nav-link" href="/dropzone/">SendSafely Dropzone</a></li>
+								<li class="nav-item"><a title="SendSafely Developer API"
+									class="nav-link" href="/developer-api/">Developer API</a></li>
+							</ul>
+						</li>
+						<li id="pricing-menu" class="nav-item dropdown submenu"><a class="nav-link" href="/pricing/">Pricing </a></li>
+						<li id="howitworks-menu" class="nav-item dropdown submenu"><a class="nobr nav-link" href="/howitworks/">How it Works </a></li>
+						<li id="blog-menu" class="nav-item dropdown submenu"><a class="nav-link" href="https://blog.sendsafely.com">Blog </a></li>
+					</ul>
+
+					<a class="btn_get btn_hover" href="/auth/"><nobr>Log In</nobr></a>
+					<a style="padding-right:15px; padding-left:15px; margin-left:15px; color:#ffffff; background: #28a745; border-color:#28a745;" class="ss-demo-button btn_get btn_hover"><span class="d-lg-none d-xl-block"><nobr>Request Demo</nobr></span><span class="d-none d-lg-block d-xl-none">Demo</span></a>
+					<br class=".d-block .d-sm-none"><br class=".d-block .d-sm-none">
+				</div>
+
+			</div>
+		</nav>
+	</header>
+
+
+	<section class="agency_banner_area_two">
+		<div class="dot_shap one"></div>
+		<div class="dot_shap two"></div>
+		<div class="dot_shap three"></div>
+		<div class="container">
+			<div class="row">
+				<div style="visibility:hidden; text-align: center" class="col-lg-6 wow fadeInLeft"
+					data-wow-delay="0.4s">
+					<img class="agency_banner_img" src="/img/globe_lines.png"
+						alt="">
+				</div>
+				<div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+					<div class="agency_content_two">
+						<h1
+							style="visibility:hidden" class="f_700 f_size_40 l_height50 w_color mb_20 wow fadeInRight"
+							data-wow-delay="0.3s">The end-to-end encryption platform for modern business</h1>
+						<div style="visibility:hidden" data-wow-delay="0.4s" class="fadeInRight wow">
+						<p class="f_400 w_color l_height28">SendSafely lets you easily exchange
+							encrypted files and information with anyone on any device. Let us
+							take the headache out of secure file exchange.</p>
+
+						
+						<a href="/auth/#signup"><div style="margin-right:15px" class="btn btn-lg btn-success">Sign up Now</div></a><a id="intro-button" class="scroll"><div class="btn btn-lg btn-orange">Learn More </div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="protype_clients_logo">
+		<div class="container wow fadeInUp" style="visibility:hidden; max-width: 1800px" data-wow-delay="0.2s">
+
+		<p style="margin-top:50px;" class="f_size_16 text-center">Trusted by leading brands that understand the importance of keeping customer information safe</p>
+
+		    <div class="row partner_logo" style="padding-top:30px;">
+
+		<div style="max-width:1450px; margin-left:auto; margin-right:auto; display: flex; flex-flow: row wrap; justify-content: space-between;">
+
+                        <div class="p_logo_item text-center" style="margin: auto;padding:40px">
+                                <img width="134" height="37" src="/img/customer_logo_1.png" alt="">
+                        </div>
+
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+                                <img width="134" height="37" src="/img/customer_logo_2.png" alt="">
+                        </div>
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+
+                                <img width="134" height="37" src="/img/customer_logo_3.png" alt="">
+                        </div>
+                        <div class="p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_4.png" alt="">
+                        </div>
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_5.png" alt="">
+                        </div>
+                        <div class="p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_6.png" alt="">
+                        </div>
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_7.png" alt="">
+                        </div>
+                        <div class="p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_8.png" alt="">
+                        </div>
+                        <div class="p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_9.png" alt="">
+                        </div>
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_10.png" alt="">
+                        </div>
+                        <div class="d-none d-sm-block p_logo_item text-center" style="margin: auto;padding:40px;">
+                                        <img width="134" height="37" src="/img/customer_logo_11.png" alt="">
+                        </div>
+		</div>
+
+
+		    </div>
+		</div>
+	</section>
+	<section id="intro" class="payment_service_area"
+		style="margin-top: 50px; border-top: 1px solid #f5f5f5; background-color: #fcfcfc">
+		<div style="visibility:hidden" class="container wow fadeInUp" data-wow-delay="0.2s">
+			<h2 style="padding-bottom:90px; padding-top: 100px"
+				class="f_size_30 f_600 t_color3 l_height45 text-center">The perfect balance of security and usability</h2>
+			
+			<div class="row flex-row-reverse">
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-md-6 media payment_service_item">
+							<div style="background-color: #5cbd2c" class="icon">
+								<i style="color: #ffffff; font-size: 32px; padding-top: 12px;"
+									class="fa fa-thumbs-up"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="f_size_20 f_p f_600">Easy to Use</h3>
+								<p class="f_400 f_size_15">SendSafely works natively with
+									all major browsers. No software to install, no encryption keys
+									to manage.</p>
+							</div>
+						</div>
+						<div class="col-md-6 media payment_service_item">
+							<div style="background-color: #f38650" class="icon">
+								<i style="color: #ffffff; font-size: 32px; padding-top: 12px;"
+									class="fa fa-shield-alt"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="f_size_20 f_p f_600">Secure & Compliant</h3>
+								<p class="f_400 f_size_15">Use SendSafely for compliance with regulations like HIPAA (BAA available), GDPR, CCPA and more.</p>
+							</div>
+						</div>
+						<div class="col-md-6 media payment_service_item">
+							<div style="background-color: #fa4c9a" class="icon">
+								<i style="color: #ffffff; font-size: 32px; padding-top: 12px;"
+									class="fa fa-cogs"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="f_size_20 f_p f_600">Integrated</h3>
+								<p class="f_400 f_size_15">Use one of our pre-built platform connectors or easily create your own integration with our developer API.</p>
+							</div>
+						</div>
+						<div class="col-md-6 media payment_service_item">
+							<div style="background-color: #35bfe7" class="icon">
+								<i style="color: #ffffff; font-size: 32px; padding-top: 12px;"
+									class="fa fa-university"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="f_size_20 f_p f_600">Enterprise Ready</h3>
+								<p class="f_400 f_size_15">Features designed for businesses such as user administration, single sign on and custom branding.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr style="padding-top: 25px;">
+		</div>
+	</section>
+
+
+	<section class="payment_clients_area"
+		style="padding-top: 20px; background-color: #fcfcfc">
+		<div class="container" style="max-width: 1800px">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="hidden-sm" style="margin-top: 120px"></div>
+					<div style="margin-bottom:0px" class="payment_features_content pr_70">
+						<h2>One platform, many uses</h2>
+						<p>SendSafely integrates with many popular third party systems, adding end-to-end encryption to the platforms your users already know and love. Extend the capabilities of your existing apps and infrastructure by seamlessly adding encryption to your existing workflows.</p>
+				
+					</div>
+					
+					<div class="hidden-sm" style="margin-bottom:70px"></div>
+					
+				</div>
+				<div class="hidden-sm col-lg-6">
+					<div class="payment_clients_inner">
+						<div class="clients_item one">
+							<img height="67	" width="86" src="/img/logo1.png" alt="">
+						</div>
+						<div class="clients_item two">
+							<img height="114" width="114" src="/img/logo2.png" alt="">
+						</div>
+						<div class="clients_item three">
+							<img height="89" width="90" src="/img/logo3.png" alt="">
+						</div>
+						<div class="clients_item four">
+							<img width="100" height="73" src="/img/logo4.png" alt="">
+						</div>
+						<div class="clients_item five">
+							<img height="65" width="65" src="/img/logo5.png" alt="">
+						</div>
+						<div class="clients_item six">
+							<img width="65" height="49" src="/img/logo6.png" alt="">
+						</div>
+						<div class="clients_item seven">
+							<img height="50" width="50" src="/img/logo7.png" alt="">
+						</div>
+						<div class="clients_item eight">
+							<img height="60" width="60" src="/img/logo8.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="app_service_area app_service_area_two"
+		style="background-color: #fcfcfc">
+		<div class="container" style="max-width: 1800px">
+			<!-- 
+            <div class="sec_title text-center mb_70">
+                 <h2 class="f_p f_size_30 l_height50 f_600 t_color">One platform, many use cases</h2>
+                 <p class="f_400 f_size_16">Our flexible platform allows you to address many use cases with a single technology.</p>
+            </div>
+            -->
+
+			<div class="row app_service_info">
+				<div style="padding: 15px" class="col-xl-3 col-lg-12">
+					<div data-click-target="/email-security/" class="app_service_item" style="height: 100%">
+						<i class="ti-email app_icon four"></i>
+						<h5 style="margin-top: 20px"
+							class="f_p f_size_18 f_600 t_color3 mb-30">Secure Email</h5>
+						<p class="f_400 f_size_15 mb-30">Pre-built integrations for Outlook and Gmail encrypt messages and attachments with the click of a button, or use our email gateway to automatically protect all outbound email.</p>
+							<br><br>
+					</div>
+					<div style="margin-left:50px; margin-top:-100px"><a href="/email-security/" class="learn_btn_two c_violet">Learn More <i
+							class="ti-arrow-right"></i></a></div>					
+				</div>
+				<div style="padding: 15px" class="col-xl-3 col-lg-12">
+					<div data-click-target="/help-desk-integrations/" class="app_service_item" style="height: 100%">
+						<i class="ti-support app_icon two"></i>
+						<h5 style="margin-top: 20px"
+							class="f_p f_size_18 f_600 t_color3 mb-30">Help Desk
+							Integrations</h5>
+						<p class="f_400 f_size_15 mb-30">Secure your support workflow with native apps for Zendesk, Salesforce Service Cloud and Freshdesk. Our Dropzone also integrates with many popular help desk platforms.</p>
+							<br><br>
+					</div>
+					<div style="margin-left:50px; margin-top:-100px"><a href="/help-desk-integrations/" class="learn_btn_two c_violet">Learn More <i
+							class="ti-arrow-right"></i></a></div>					
+				</div>
+				<div style="padding: 15px" class="col-xl-3 col-lg-12">
+					<div data-click-target="/secure-file-transfer/" class="app_service_item" style="height: 100%">
+						<i class="ti-loop app_icon one"></i>
+						<h5 style="margin-top: 20px"
+							class="f_p f_size_18 f_600 t_color3 mb-30">Secure File
+							Exchange</h5>
+						<p class="f_400 f_size_15 mb-30">Our secure file
+							exchange portal lets you send and receive very large files
+							securely from anyone, and you can collaborate across teams using our Secure Workspace feature.</p>
+							<br><br>
+					</div>
+					<div style="margin-left:50px; margin-top:-100px"><a href="/secure-file-transfer/" class="learn_btn_two c_violet">Learn More <i
+							class="ti-arrow-right"></i></a></div>
+				</div>
+				<div style="padding: 15px" class="col-xl-3 col-lg-12">
+					<div data-click-target="/dropzone/" class="app_service_item" style="height: 100%">
+						<i class="ti-files app_icon five"></i>
+						<h5 style="margin-top: 20px"
+							class="f_p f_size_18 f_600 t_color3 mb-30">SendSafely
+							Dropzone</h5>
+						<p class="f_400 f_size_15 mb-30">Securely collect files from any user on any device. Use our turn-key hosted version or embed the Drozpone on your own website. You can even integrate the Dropzone with your existing workflows.</p>
+							<br><br>
+					</div>
+					<div style="margin-left:50px; margin-top:-100px"><a href="/dropzone/" class="learn_btn_two c_violet">Learn More <i
+							class="ti-arrow-right"></i></a></div>
+				</div>
+				&nbsp;<br>&nbsp;
+			</div>
+		</div>
+
+	</section>
+
+	<div style="text-align:center; padding-bottom:150px; background-color: #fcfcfc">
+	
+	<a href="/features/" class="scroll"><div class="btn btn-lg btn-orange">Explore SendSafely Features</div></a>
+	
+	</div>
+	
+	<section style="padding-bottom: 100px"
+		class="saas_featured_area sec_pad dk_bg_one">
+		<div class="square_box box_three"></div>
+		<div class="square_box box_four"></div>
+		<div class="container">
+			<div class="saas_banner_content text-center"
+				style="margin-bottom: 70px;">
+				<h2 class="f_700 f_size_40 w_color mb-0" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Automate
+					your File Exchange Workflow</h2>
+				<p class="w_color f_400 f_size_18 l_height30 mt_30"
+					style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Our platform is API centric. Build your own custom integration and incorporate SendSafely security into your existing workflows.</p>
+			</div>
+			<div class="row saas_featured_info">
+				<div class="col-lg-5">
+					<div class="f_img_one"
+						style="visibility: visible;">
+						<img class="img-fluid" src="/img/sendsafely-stacked-cubes.png"
+							alt="">
+					</div>
+				</div>
+				<div class="col-lg-7 d-flex align-items-center pl_100">
+					<div class="saas_featured_content"
+						style="visibility: visible;">
+						<h2 class="f_size_30 f_600 f_p w_color l_height40 mb_20">SendSafely
+							Developer API</h2>
+						<p class="d_p_color f_400 f_size_15 l_height28">Our API lets
+							you integrate SendSafely's end-to-end secure data exchange
+							capabilities into virtually any application. We offer
+							SDKs for Java, .NET and NodeJS, or a REST API that can be used
+							with any programming language.</p>
+						<a href="/developer-api/" class="scroll"><div class="btn btn-lg btn-orange">Learn More</div></a>
+					</div>
+				</div>
+			</div>
+			<hr style="margin-top: 80px; border: 1px solid #2a3656;">
+			<div style="margin-top: 100px"
+				class="row saas_featured_info flex-row-reverse">
+				<div class="col-lg-6">
+					<div class="f_img_two"
+						style="visibility: visible;">
+						<img class="img-fluid" src="/img/dropzone_integrated_widget.png"
+							alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex align-items-center pr_70">
+					<div class="saas_featured_content"
+						data-wow-delay="0.3s"
+						style="visibility: visible;">
+						<h2 class="f_size_30 f_600 f_p w_color l_height40 mb_20">SendSafely
+							Dropzone Widget</h2>
+						<p class="d_p_color f_400 f_size_15 l_height28">Our Dropzone widget is a secure file upload dialog written in pure HTML and JavaScript. The widget can be easily embedded into any web page or web application.</p>
+						<a href="/dropzone/" class="scroll"><div class="btn btn-lg btn-orange">Learn More</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="payment_action_area pay_ele_cus"
+		style='background: url(/img/map.png) center no-repeat; background-size: auto 100%; margin-bottom:20px;'>
+
+		<div class="container">
+
+<div class="container-fluid">
+    <div class="row" style="padding-bottom:70px;">
+
+        <div class="text-center col">
+                                        <a href="https://cybersecuritybreakthrough.com/2021-winners/" target="_" rel="noopener"> <img
+                                                style="margin-bottom: 30px" height="200" width="207" 
+                                                src="/img/cba_2021.png" alt="">
+                                        </a>
+        </div>
+
+        <div class="text-center col">
+					<a href="https://www.scawardseurope.com/#section1-5"
+						target="_" rel="noopener"> <img
+						style="margin-bottom: 30px"
+						height="200" width="200" src="/img/CSGEA-Gold-PNG.png"
+						alt="">
+					</a>        
+        </div>
+
+        <div class="text-center col">
+					<a href="https://www.scawardseurope.com/#section1-5"
+						target="_" rel="noopener"> <img
+						style="margin-bottom: 30px"
+						height="200" width="156" src="/img/cybersecurity_award_2021_Winner_Gold.png"
+						alt="">
+					</a>        
+        </div>
+
+        <div class="text-center col">
+					<a href="https://www.scawardseurope.com/#section1-5"
+						target="_" rel="noopener"> <img
+						style="margin-bottom: 30px"
+						height="200" width="156" src="/img/awards_scmag_2019.png"
+						alt="">
+					</a>        
+        </div>
+
+         <div class="text-center col">
+ 					<a href="https://networkproductsguide.com/winners/2019-it-world-awards/"
+						target="_" rel="noopener"> <img
+						style="margin-bottom: 30px"
+						height="200" width="153" src="/img/awards_npg_2019.png"
+						alt="">
+					</a>       
+        </div>      
+
+    </div>
+</div>
+
+			
+
+			<div class="payment_action_content text-center"
+				style="visibility: visible;">
+				<h2 class="f_p t_color f_700">Are you ready to SendSafely?</h2>
+				<p>Find out why companies across the globe use SendSafely to protect the security and privacy of their
+					confidential business data.</p>
+				<a href="/auth/#signup"><div style="width:200px; margin-top:10px; margin-bottom:10px; margin-left:15px; margin-right:15px" class="btn btn-lg btn-success">Sign up Now</div></a>
+				<div style="width:200px; margin-top:10px; margin-bottom:10px; margin-left:15px; margin-right:15px" class="btn btn-lg btn-success ss-demo-button">Request a Demo</div>
+			</div>
+			
+		</div>
+		
+	</section>
+
+	<footer class="footer_area footer_area_four"
+		style="background-color: #f5f5f5">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget company_widget">
+							<h3 class="f-title f_600 t_color f_size_18 mb_40">Get in Touch</h3>
+							<div class="widget-wrap">
+								<p class="f_400 f_p f_size_15 mb-0 l_height34">
+									<span>Sales:</span> <a href="mailto:sales@sendsafely.com"
+										class="f_400">sales@sendsafely.com</a>
+								</p>
+								<p class="f_400 f_p f_size_15 mb-0 l_height34">
+									<span>Support:</span> <a href="mailto:support@sendsafely.com"
+										class="f_400">support@sendsafely.com</a>
+								</p>								
+								<p class="f_400 f_p f_size_15 mb-0 l_height34">
+									<span>Phone:</span> <a href="tel:+16465687233" class="f_400">+1 646-568-SAFE (7233)</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget about-widget pl_40">
+							<h3 class="f-title f_600 t_color f_size_18 mb_40">About Us</h3>
+							<ul class="list-unstyled f_list">
+								<li><a href="/security/">Security Overview</a></li>
+								<li><a href="https://sendsafely.zendesk.com/">Online Help Center</a></li>
+								<li><a href="http://sendsafely.statuspage.io/">System Status</a></li>
+								<li><a href="/about/">Company Info</a></li>
+								<li><a href="/careers/">Careers</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget about-widget">
+							<h3 class="f-title f_600 t_color f_size_18 mb_40">Use Cases</h3>
+							<ul class="list-unstyled f_list">
+								<li><a href="/secure-file-transfer/">Secure Email</a></li>
+								<li><a href="/help-desk-integrations/">Help Desk Integrations</a></li>
+								<li><a href="/secure-file-transfer/">Secure File Exchange</a></li>
+								<li><a href="/dropzone/">Inbound File Collection</a></li>
+								<li><a href="/developer-api/">Developer API</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="f_widget about-widget">
+							<h3 class="f-title f_600 t_color f_size_18 mb_40">SendSafely Apps</h3>
+							<ul class="list-unstyled f_list">
+								<li><a href="https://sendsafely.zendesk.com/hc/en-us/articles/115003195851">Outlook Plug-in</a></li>
+								<li><a href="https://chrome.google.com/webstore/detail/sendsafely-encryption-for/glpichgelkekjnccdflklcclhnoioblm">Gmail Add-on</a></li>
+								<li><a href="https://www.zendesk.com/apps/support/sendsafely/">Zendesk App</a></li>
+								<li><a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000E2LDgUAN">Salesforce Service Cloud App</a></li>
+								<li><a href="https://zapier.com/apps/sendsafely/integrations">Zapier App</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-4 col-md-5 col-sm-6">
+						<p class="mb-0 f_400">
+						Copyright ©
+						
+						2022
+						SendSafely Inc.
+						</p>
+					</div>
+					<div class="col-lg-4 col-md-3 col-sm-6">
+						<div class="f_social_icon_two text-center">
+							<a href="https://facebook.com/SendSafely/"><i class="ti-facebook"></i></a> 
+							<a href="https://twitter.com/SendSafely/"><i class="ti-twitter-alt"></i></a>
+							<a href="https://linkedin.com/company/sendsafely"><i class="ti-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<ul class="list-unstyled f_menu text-right">
+							<li><a href="/terms/">Terms of Use</a></li>
+							<li><a href="/privacy/">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <div class="modal fade" id="enterprise-demo-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content" style="margin:auto; max-width:450px">
+				<div class="modal-header">
+					
+					
+					<div id="enterprise-demo-modal-title" style="font-size:20px; font-weight:bold">Request a SendSafely Demo</div>
+					
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+					
+				</div>
+				<div class="modal-body">
+					
+					<div style="max-width:450px">
+
+					    <div id="landing-form-inputs">
+					    <form name="landing-form" id="landing-form">
+					    <input name="test" value="test" type="hidden">
+					    <input id="landing-form-redirect-url" name="landing-form-redirect-url" value="" type="hidden">
+					    			<span style="font-size:13px; font-weight:bold">First Name<span style="color:red">*</span></span>
+					    			<input class="landing-mandatory-text form-control" name="landing-first-name" id="landing-first-name" type="text" maxlength='255'>
+					    			<div style="visibility:hidden; margin-bottom:5px; line-height:15px; font-size:12px" id="landing-first-name-mandatory">Please complete this mandatory field</div>
+					    			<span style="font-size:13px; font-weight:bold">Last Name<span style="color:red">*</span></span>
+					    			<input class="landing-mandatory-text form-control" name="landing-last-name" id="landing-last-name" type="text" maxlength='255'>
+					    			<div style="visibility:hidden; margin-bottom:5px; line-height:15px; font-size:12px" id="landing-last-name-mandatory">Please complete this mandatory field</div>
+					    			<span style="font-size:13px; font-weight:bold">Email<span style="color:red">*</span></span>
+					    			<input class="landing-mandatory-text form-control" name="landing-email" id="landing-email" type="text" maxlength='255'>
+					    			<div style="visibility:hidden; margin-bottom:5px; line-height:15px; font-size:12px" id="landing-email-mandatory">Please complete this mandatory field</div>
+					    			<span style="font-size:13px; font-weight:bold">Company Name<span style="color:red">*</span></span>
+					    			<input class="landing-mandatory-text form-control" name="landing-company-name" id="landing-company-name" type="text" maxlength='255'>
+					    			<div style="visibility:hidden; margin-bottom:5px; line-height:15px; font-size:12px" id="landing-company-name-mandatory">Please complete this mandatory field</div>
+					    			<span style="font-size:13px; font-weight:bold">Estimated Number of SendSafely Users<span style="color:red">*</span></span>
+					    			<select class="landing-mandatory-text form-control" name="landing-employee-count" id="landing-employee-count">
+					    				<option value="--- Select an Option ---">--- Select an Option ---</option>
+					    				<option value="1-5">1-5</option>
+					    				<option value="5-25">5-25</option>
+					    				<option value="25-50">25-50</option>
+					    				<option value="50-100">50-100</option>
+					    				<option value="100-500">100-500</option>
+					    				<option value="500-1000">500-1000</option>
+					    				<option value="1000+">1000+</option>
+					    			</select>
+					    			<div style="visibility:hidden; margin-bottom:5px; line-height:15px; font-size:12px" id="landing-employee-count-mandatory">Please select an option from the dropdown</div>
+					        	    <span style="font-size:13px; font-weight:bold">Phone Number</span>
+					        	    <input class="form-control" name="landing-phone-number" id="landing-phone-number" type="text" maxlength='255'>
+					        		<input type="hidden" id="landing-url" name="landing-url">
+					        		<div id="landing-privacy-container" align="center" style="margin-top:10px; font-size:12px"><input style="margin-right:5px;" type="checkbox" id="landing-privacy-consent">I have read and understand SendSafely's <a href="/privacy/" target="_">Privacy Policy</a></div>
+					        
+					        		<br>
+					        		
+					        		<div id='recaptcha' align="center"></div>
+					    			<div align="center">
+					    				     	<a style="color:#ffffff; margin-left:26px" id="landing-form-submit" class="btn btn-success">Get Started!</a>				    			
+					    			<img id="landing-form-working" style="visibility:hidden; margin-left:10px;" height="16" width="16" src="/img/loading.gif"></div>
+					    			<br>
+					    </form>
+					    </div>
+					    <div style="display:none" id="landing-form-completed">
+					    	<br>
+					    	<div align="center">
+					    	<b>Thank you. A member of our team will reach<br>out to you shortly with more information.</b>
+					    	</div>
+					    	<br><br>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+        <div id="cookie_consent_container" class="container" style="display:none; box-sizing:none;">
+            <nav style="opacity:3; background:#444444; border:0px;" class="navbar fixed-bottom">
+
+                <div style="padding-top:15px; padding-bottom:15px;" class="container">
+                <div style="width:100%; color:#fff" class="navbar-inner navbar-content-center" >
+
+					<table align="Center"><tr><td>
+					By using our web site you are consenting to our use of cookies in accordance with our <a href="/privacy/">privacy policy</a>.
+					</td><td style="padding-left:15px;">
+					<a id="cookie_accept" class="btn btn-secondary pull-left">Accept</a>
+					</td>
+					</tr></table>
+                    
+                   
+                      
+                   
+           
+
+                </div>
+              </div>
+
+            </nav>
+        </div>	
+	
+	<script src="https://static-www.sendsafely.com/www-js/main.js" type="text/javascript"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ3L3XZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</html>
+

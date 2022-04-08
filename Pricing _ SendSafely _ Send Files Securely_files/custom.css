@@ -9,3 +9,9 @@ input[type="number"]::-webkit-inner-spin-button {
     max-width: 6rem;
     margin: 0 auto;
 }
+
+.s_pricing-item .s_price_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

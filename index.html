@@ -77,8 +77,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script src="./Pricing _ SendSafely _ Send Files Securely_files/jquery.magnific-popup.min.js" type="text/javascript"></script>
 	<script src="./Pricing _ SendSafely _ Send Files Securely_files/plugins.js" type="text/javascript"></script>	
 	<script src="./Pricing _ SendSafely _ Send Files Securely_files/demoForm.js" type="text/javascript" async="" defer=""></script>
-        <script src="./Pricing _ SendSafely _ Send Files Securely_files/analytics.js" type="text/javascript" async="" defer=""></script>
-
+	<script src="./Pricing _ SendSafely _ Send Files Securely_files/custom-script.js"></script>
+	<script src="./Pricing _ SendSafely _ Send Files Securely_files/analytics.js" type="text/javascript" async="" defer=""></script>
 
 
 <script src="./Pricing _ SendSafely _ Send Files Securely_files/f(1).txt"></script></head>
@@ -165,38 +165,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <p class="f_400 f_size_16 l_height30 mb-0">Sign up today and automatically get our PRO plan free for 14 days</p>
             </div>
 
-            <ul class="nav nav-tabs price_tab price_tab_two mt_70" role="tablist">
+            <ul class="nav nav-tabs price_tab price_tab_two mt_70" id="pricing_plan_toggle" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active active_hover" id="home-tab" data-toggle="tab" href="https://www.sendsafely.com/pricing/#home" role="tab" aria-controls="home" aria-selected="true">Business</a>
+                    <a class="nav-link" id="retail-tab" data-toggle="tab" href="https://www.sendsafely.com/pricing/#home" role="tab" aria-controls="home" aria-selected="true">
+						Retail
+					</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="https://www.sendsafely.com/pricing/#profile" role="tab" aria-controls="profile" aria-selected="false">Enterprise</a>
+                    <a class="nav-link active active_hover" id="enterprise-tab" data-toggle="tab" href="https://www.sendsafely.com/pricing/#profile" role="tab" aria-controls="profile" aria-selected="false">
+						Enterprise
+					</a>
                 </li>
             <li class="hover_bg" style="left: 0px; width: 0px;"></li></ul>
 			<div class="mb-5 row justify-content-center">
-				<form action="#" class="card col-xs-12 col-sm-9 col-md-6" id="num_users_form">
+				<form action="#" class="card col-xs-12 col-sm-9 col-md-6 num-users" id="num_users_form">
 					<fieldset class="card-body form-group mb-0 row align-items-center justify-content-center">
 						<div class="col-xs-6 text-md-right">
-							<label class="mb-0 pr-3" for="num_users">Number of Users?</label>
+							<label class="mb-0 pr-3 f_600 f_size_20 font-weight-bold" for="num_users">Number of Users?</label>
+							<span class="userLabel">(minimum of 10 users)</span>
 						</div>
 						<div class="col-xs-6">
-							<input type="number" class="form-control px-1 text-center num-users" id="num_users" min="1" value="10">
+							<input type="number" class="form-control px-1 text-center num-users" id="num_users" min="10" value="10">
 						</div>
 					</fieldset>
 				</form>
 			</div>
             <div class="tab-content price_content price_content_two">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-6 col-sm-12">
-		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item">
+                <div class="tab-pane fade show active priceTable" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-6 col-sm-12 hideLeft priceTable_col">
+		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item" data-plan="personal">
 		                        <img class="shape_img" src="./Pricing _ SendSafely _ Send Files Securely_files/price_line1.png" alt="">
 		                        <div class="s_price_icon p_icon1">
 		                            <i class="fas fa-chess-pawn"></i>
 		                        </div>
 		                        <h5 class="f_p f_600 f_size_20 t_color mb-0 mt_40">Personal</h5>
 		                        <p class="f_p f_400">Great for infrequent use, like sending docs to your accountant</p>
-		                        <div class="price f_size_40 f_p f_700">FREE</div>
+		                        <div class="price f_size_40 f_p f_700">
+									FREE
+									<span class="priceLabel">&nbsp;</span>
+									<span class="priceLabel mt-0">&nbsp;</span>
+								</div>
                              	<br><h2><span class="badge badge-secondary"><i class="fa fa-tachometer-alt"></i>&nbsp;50MB<span style="font-size:10px;">/month</span></span></h2>
                              	<ul class="list-unstyled mt_30" style="margin-left:20px; text-align:left">                      
                                 <li><i style="padding-right:5px; color:#5cb85c" class="fa fa-check"></i>OpenPGP Encryption</li>
@@ -217,16 +226,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		                        <a href="https://www.sendsafely.com/auth/#signup" class="price_btn btn_hover mt_30">Sign up Now</a>
 		                    </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-sm-12">
-		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item">
+                        <div class="col-xl-3 col-lg-6 col-sm-12 hideLeft priceTable_col">
+		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item" data-plan="basic">
 		                        <img class="shape_img" src="./Pricing _ SendSafely _ Send Files Securely_files/price_line2.png" alt="">
 						        <div class="s_price_icon p_icon1">
 		                            <i class="fas fa-chess-knight"></i>
 		                        </div>
 		                        <h5 class="f_p f_600 f_size_20 t_color mb-0 mt_40">Basic</h5>
 		                        <p class="f_p f_400">Protect your personal email attachments from prying eyes</p>
-		                        <div class="price f_size_40 f_p f_700">$10<sub class="f_400 f_size_16">/ mo</sub></div>
-		                        <br><h2><span class="badge badge-secondary"><i class="fa fa-tachometer-alt"></i>&nbsp;250MB<span style="font-size:10px;">/month</span></span></h2>
+								<div class="price f_size_40 f_p f_700">$<span class="price_userAverage">10</span><sub class="f_400 f_size_16">/ mo</sub>
+									<span class="priceLabel">per user (average)</span>
+									<span class="priceLabel mt-0">$<span id="total_price_basic">10</span> a month</span>
+								</div>
+								<br><h2><span class="badge badge-secondary"><i class="fa fa-tachometer-alt"></i>&nbsp;250MB<span style="font-size:10px;">/month</span></span></h2>
 		                         <ul class="list-unstyled mt_30" style="margin-left:20px; text-align:left">
                                 <li><i style="padding-right:5px; color:#5cb85c" class="fa fa-check"></i>OpenPGP Encryption</li>
                                 <li><i style="padding-right:5px; color:#5cb85c" class="fa fa-check"></i>Two Factor Login</li>
@@ -245,16 +257,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		                        <a href="https://www.sendsafely.com/auth/#signup" class="price_btn btn_hover mt_30">Sign up Now</a>
 		                    </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-sm-12">
+                        <div class="col-xl-3 col-lg-6 col-sm-12 hideLeft priceTable_col">
 
-		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item">
+		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item" data-plan="pro">
 		                        <img class="shape_img" src="./Pricing _ SendSafely _ Send Files Securely_files/price_line3.png" alt="">
 		                        <div class="s_price_icon p_icon1">
 		                             <i class="fas fa-chess-bishop"></i>
 		                        </div>
 		                        <h5 class="f_p f_600 f_size_20 t_color mb-0 mt_40">Pro</h5>
 		                        <p class="f_p f_400">Single person license for sole practitioners and contractors</p>
-		                        <div class="price f_size_40 f_p f_700">$20<sub class="f_400 f_size_16">/ mo</sub></div>
+		                        <div class="price f_size_40 f_p f_700">$<span class="price_userAverage">20</span><sub class="f_400 f_size_16">/ mo</sub>
+									<span class="priceLabel">per user (average)</span>
+									<span class="priceLabel mt-0">$<span id="total_price_pro">20</span> a month</span>
+								</div>
 		                        <br><h2><span class="badge badge-secondary"><i class="fa fa-tachometer-alt"></i>&nbsp;100GB<span style="font-size:10px;">/month</span></span></h2>
 		                        <ul class="list-unstyled mt_30" style="margin-left:20px; text-align:left">
                                 <li><i style="padding-right:5px; color:#5cb85c" class="fa fa-check"></i>OpenPGP Encryption</li>
@@ -274,9 +289,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		                        <a href="https://www.sendsafely.com/auth/#signup" class="price_btn btn_hover mt_30">Sign up Now</a>
 		                    </div>
                         </div>
-                        <div class="col-xl-3 col-lg-6 col-sm-12">
+                        <div class="col-xl-3 col-lg-6 col-sm-12 priceTable_col">
 
-		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item">
+		                    <div style="padding-left:25px; padding-right:25px;" class="s_pricing-item" data-plan="enterprise">
 		                        <img class="shape_img" src="./Pricing _ SendSafely _ Send Files Securely_files/price_line3.png" alt="">
 		                       <div class="tag_label">Best Value</div>
 		                        <div class="s_price_icon p_icon1">
@@ -285,7 +300,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		                        <h5 class="f_p f_600 f_size_20 t_color mb-0 mt_40">Business/Enterprise</h5>
 		                        <p class="f_p f_400">Business version designed for teams and companies of any size</p>
 		                        <div style="margin-top:-32px;" class="price f_size_40 f_p f_700"><div style="font-size:14px; font-weight:100">starting at</div>$115<sub class="f_400 f_size_16">/ mo</sub>
-		                        <br><div style="margin-top:5px; margin-bottom:-32px; font-size:14px; font-weight:100">includes 10 users</div></div>
+									<span class="priceLabel">per 10 users (average)</span>
+									<span class="priceLabel mt-0">$<span id="total_price_enterprise">115</span> a month</span>
+									<br/>
+									<div style="margin-top:5px; margin-bottom:-32px; font-size:14px; font-weight:100">minimum of 10 users</div>
+								</div>
 		                        <br><h2><span class="badge badge-success"><i class="fa fa-tachometer-alt"></i>&nbsp;Variable</span></h2>
 		                         <ul class="list-unstyled mt_30" style="margin-left:20px; text-align:left">
                                 <li><span style="font-weight:500">ALL Pro Features PLUS:</span></li>
@@ -310,59 +329,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 </div>
                  <div class="text-center" style="padding-top:20px; font-size:16px; font-weight:500">*During the 14-day trial period you will have access to enterprise features like the Dropzone, Platform Integrations and SendSafely API.&nbsp; Trial users are limited to 2GB of uploads.</div>
                
-                <div style="display:none" class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="price_item">
-                                <div class="tag"><span>Popular</span></div>
-                                <img src="./Pricing _ SendSafely _ Send Files Securely_files/price-3.png" alt="">
-                                <h5 class="f_p f_size_20 f_600 t_color2 mt_30">Professional</h5>
-                                <p>Create your first online course</p>
-                                <div class="price f_700 f_size_40 t_color2">$25.00<sub class="f_size_16 f_400">/ mo</sub></div>
-                                <ul class="list-unstyled p_list">
-                                    <li><i class="ti-check"></i>Only 2 Operators</li>
-                                    <li><i class="ti-check"></i>Abandoned Cart</li>
-                                    <li><i class="ti-check"></i>Facebook &amp; Instagram Ads</li>
-                                    <li><i class="ti-close"></i>Order Notifications</li>
-                                    <li><i class="ti-close"></i>Landing Pages</li>
-                                </ul>
-                                <a href="https://www.sendsafely.com/pricing/#" class="price_btn btn_hover">Start Today</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="price_item">
-                                <img src="./Pricing _ SendSafely _ Send Files Securely_files/price-2.png" alt="">
-                                <h5 class="f_p f_size_20 f_600 t_color2 mt_30">Education</h5>
-                                <p>Create your first online course</p>
-                                <div class="price f_700 f_size_40 t_color2">$25.00<sub class="f_size_16 f_400">/ mo</sub></div>
-                                <ul class="list-unstyled p_list">
-                                    <li><i class="ti-check"></i>Only 2 Operators</li>
-                                    <li><i class="ti-check"></i>Abandoned Cart</li>
-                                    <li><i class="ti-check"></i>Facebook &amp; Instagram Ads</li>
-                                    <li><i class="ti-close"></i>Order Notifications</li>
-                                    <li><i class="ti-close"></i>Landing Pages</li>
-                                </ul>
-                                <a href="https://www.sendsafely.com/pricing/#" class="price_btn btn_hover">Start Today</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <div class="price_item">
-                                <img src="./Pricing _ SendSafely _ Send Files Securely_files/price-1.png" alt="">
-                                <h5 class="f_p f_size_20 f_600 t_color2 mt_30">Business</h5>
-                                <p>Create your first online course</p>
-                                <div class="price f_700 f_size_40 t_color2">$25.00<sub class="f_size_16 f_400">/ mo</sub></div>
-                                <ul class="list-unstyled p_list">
-                                    <li><i class="ti-check"></i>Only 2 Operators</li>
-                                    <li><i class="ti-check"></i>Abandoned Cart</li>
-                                    <li><i class="ti-check"></i>Facebook &amp; Instagram Ads</li>
-                                    <li><i class="ti-close"></i>Order Notifications</li>
-                                    <li><i class="ti-close"></i>Landing Pages</li>
-                                </ul>
-                                <a href="https://www.sendsafely.com/pricing/#" class="price_btn btn_hover">Start Today</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         
     </section>

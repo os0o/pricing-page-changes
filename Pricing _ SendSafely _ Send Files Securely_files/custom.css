@@ -7,15 +7,16 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .hideRight, .hideLeft {
     transform: translateX(100%);
-    transition: transform 400ms ease-in-out;
+    transition: transform 1200ms ease-in-out;
 }
 
 .hideLeft {
-    transform: translateX(-1000%);
+    transform: translateX(-300%);
+    transition: transform 400ms ease-out;
 }
 
 .num-users {
-    transition: opacity 400ms ease-in;
+    transition: opacity 800ms ease-in;
 }
 
 .opacityHide {

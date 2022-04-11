@@ -5,18 +5,8 @@ input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: inner-spin-button !important;
 }
 
-.hideRight, .hideLeft {
-    transform: translateX(100%);
-    transition: transform 1200ms ease-in-out;
-}
-
-.hideLeft {
-    transform: translateX(-300%);
-    transition: transform 400ms ease-out;
-}
-
-.num-users {
-    transition: opacity 800ms ease-in;
+.hidable {
+    transition: opacity 400ms ease-in-out;
 }
 
 .opacityHide {
@@ -35,10 +25,6 @@ input[type="number"]::-webkit-inner-spin-button {
 .priceTable {
     position: relative;
     overflow: hidden;
-}
-
-.priceTable_col {
-    transition: all 1000ms 0ms ease-in-out;
 }
 
 .s_pricing-item .s_price_icon {
